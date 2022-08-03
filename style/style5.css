@@ -1,0 +1,30 @@
+/*
+*   Website 13 
+*   FRAME : box 5 detail CSS
+*/
+
+.box
+{
+    background:rgba(0,0,0,0.6);
+}
+.icon
+{
+    width:60px;
+    height:60px;
+    padding:10px;
+    border-radius:1px;
+    transition:all 0.5s linear;
+}
+.icon:hover
+{
+    background:crimson;
+}
+#box1 a
+{
+    color:crimson;
+    text-decoration: none;
+}
+#box1 a:hover
+{
+    text-decoration:underline;
+}

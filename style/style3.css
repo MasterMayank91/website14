@@ -1,0 +1,32 @@
+/*
+* Website 13 
+* FRAME : box 3 detail CSS
+*/
+.box
+{
+    width:100%;
+    height: auto;
+}
+progress
+{
+    width:100%;
+    margin: auto;
+    background: crimson;
+    transition: all linear 1s;
+}
+.data
+{
+    width: 80%;
+    margin: auto;
+    padding: 1rem;
+}
+.data:last-child
+{
+    margin-bottom: 3rem;
+}
+h3
+{
+    font:18px calibri;
+    margin:10px;
+    text-align: right;
+}

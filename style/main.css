@@ -1,0 +1,74 @@
+/*
+* Website 13 Showoff
+*/
+@import "style1.css";
+@import "style2.css";
+@import "style3.css";
+@import "style4.css";
+@import "style5.css";
+@import "responsive.css";
+
+*
+{
+    outline:none;
+    font:16px arial;
+    color:#000;
+    border:none;
+    user-select:none;
+    color: white;
+}
+body
+{
+    background:linear-gradient(#252525,#101010) fixed no-repeat;
+    display: grid;
+    place-content:space-around;
+    overflow-y:scroll;
+}
+
+main
+{
+    margin: 50px auto;
+    width:700px;
+    height:auto;
+    box-sizing:border;
+}
+#header
+{
+    width:100%;
+    height:auto;
+}
+#menu
+{
+    width:100%;
+    height:12vh;
+    display:flex;
+    justify-content:space-evenly;
+}
+#frame
+{
+    width:100%;
+    height:auto;
+    box-sizing:border-box;
+    box-shadow:2px 2px 5px crimson;
+}
+#footer
+{
+    text-align:center;
+    border-bottom:1px solid crimson;
+}
+.right
+{
+    margin:50px;
+    font-weight:100;
+    color:#eee;
+}
+.right::before
+{
+    color: crimson;
+    content: "{ Master";
+}
+.right::after
+{
+    color: crimson;
+    content: "Mayank }";
+}

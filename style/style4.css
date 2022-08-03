@@ -1,0 +1,72 @@
+/*
+*   Website 13 
+*   FRAME : box 4 detail CSS
+*/
+
+
+#box4
+{
+
+}
+form[name="message"]
+{
+    width:90%;
+    padding:5%;
+    height:auto;
+    display:grid;
+    grid-template-columns:1fr 1fr;
+    grid-template-rows:1fr 1fr 5fr 1fr;
+    grid-gap:20px;
+}
+.field
+{
+    grid-column:1/-1;
+    padding:10px;
+    background:#222;
+    color:#eee;
+}
+.field:focus
+{
+    border-bottom:1px solid crimson;
+}
+.field:first-child
+{
+    grid-column:1/2;
+}
+.field:nth-child(2)
+{
+    grid-column:2/3;
+}
+textarea
+{
+    grid-column:1/-1;
+    padding:10px;
+    color:#eee;
+    background:#222;
+}
+textarea:focus
+{
+    border:1px solid crimson;
+}
+.button
+{
+    padding:20px;
+    border:1px solid #111;
+    background:#111;
+    color:#fff;
+    transition:all 0.3s linear;
+}
+.button:hover
+{
+    border-color: crimson;
+    color:crimson ;
+    background:transparent;
+}
+.button:first-child
+{
+    grid-column:1/2;
+}
+.button:last-child
+{
+    grid-column:2/3;
+}
